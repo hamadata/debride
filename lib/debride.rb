@@ -422,6 +422,9 @@ class Debride < MethodBasedSexpProcessor
     :after_action,
     :around_action,
     :before_action,
+    :before_filter,
+    :after_filter,
+    :around_filter,
 
     # http://api.rubyonrails.org/classes/ActiveRecord/Callbacks.html
     :after_commit,
